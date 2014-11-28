@@ -1,5 +1,5 @@
 //
-//  FirstViewController.h
+//  RotationViewController.h
 //  GestureDemo
 //
 //  Created by enterpi on 8/26/14.
@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface FirstViewController : UIViewController
+@interface RotationViewController : UIViewController
+@property(weak,nonatomic)IBOutlet UIView *testView;
 
 @end
